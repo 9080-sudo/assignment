@@ -39,8 +39,6 @@ const Table = () => {
   };
 
 //   setrequiredSheetData(process(parsedData));
-
-  console.log(requiredSheetData);
   useEffect(() => {
     //console.log(requiredSheetData, "welcome to  useeffect");
     const endOffset = itemOffset + itemsPerPage;
